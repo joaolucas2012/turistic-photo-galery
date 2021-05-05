@@ -6,7 +6,10 @@
   max-height: 50vh;
 }
 .cards img{
-  max-width: 25vw;
+  max-width: 24.5vw;
   margin: 10px;
   box-shadow: 3px 3px 8px 1px black;
+}
+.cards img:hover{
+  max-width:24.8vw;
 }
