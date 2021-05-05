@@ -1,0 +1,12 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction:row;
+  max-height: 50vh;
+}
+.cards img{
+  max-width: 25vw;
+  margin: 10px;
+  box-shadow: 3px 3px 8px 1px black;
+}
