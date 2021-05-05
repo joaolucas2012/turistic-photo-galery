@@ -1,0 +1,41 @@
+.media{
+  display: flex;
+  align-items: flex-start;
+  max-width: 96%;
+  background-color:chartreuse;
+  margin-left: 1em;
+}
+.media-object{
+  margin: 1em;
+  max-width: 15vw;
+}
+.media-body{
+  flex: 1;
+}
+.media-heading{
+  align-items: flex-start;
+  margin: 0 0.5em;
+  font-family: monospace;
+  font-size:2.5em;
+  text-align:left;
+  color: black;
+}
+.media-paragraph{
+  align-items: flex-start;
+  margin: 0 0.5em;
+  font-family: monospace;
+  font-size:1.9em;
+  text-align:left;
+  color: black;
+}
+.preview{
+  text-align:center;
+}
+.preview a:link{
+  position: relative;
+  font-size:1.5em;
+}
+.preview a:hover{
+  background-color:black;
+  color: aqua;
+}
